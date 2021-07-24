@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="Username" value="abcd@gmail.com"></parameter>
+  	<parameter name="Password" value="1234567890"></parameter>
+  <classes>
+  <class name="org.testNG.parameterizationExample"></class>
+  </classes>
+  
+  
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- <classes>
+      <class name="org.testNG.TestNGBasics"></class>
+      <class name="org.testNG.LaunchBrowserWithSiute"></class>
+    </classes> -->
+    
+<!--<groups>
+  	<run>
+  	<include name="School"></include>
+  	</run>
+  </groups>
+  
+  <classes>
+  <class name="org.testNG.GroupingExample"></class>
+  </classes> 
+  -->    
